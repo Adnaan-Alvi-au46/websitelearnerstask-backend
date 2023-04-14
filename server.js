@@ -5,9 +5,9 @@ const connectDB = require('./dbConfig');
 const cookieparser = require('cookie-parser')
 const userRouter = require('./routes/userRoutes');
 const dotenv = require('dotenv');
-const path = require('path')
+// const path = require('path')
 
-app.use(express.static(path.join(__dirname+"/public")))
+// app.use(express.static(path.join(__dirname+"/public")))
 
 dotenv.config();
 
