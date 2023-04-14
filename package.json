@@ -10,5 +10,23 @@
     "mongoose": "^7.0.0",
     "nodemon": "^2.0.22",
     "path": "^0.12.7"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "api",
+  "version": "1.0.0",
+  "main": "dbConfig.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adnaan-Alvi-au46/websitelearnerstask-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adnaan-Alvi-au46/websitelearnerstask-backend/issues"
+  },
+  "homepage": "https://github.com/Adnaan-Alvi-au46/websitelearnerstask-backend#readme",
+  "description": ""
 }

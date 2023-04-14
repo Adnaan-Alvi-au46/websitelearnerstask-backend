@@ -11,7 +11,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const prt = process.env.PORT 
+const prt = process.env.PORT || 6060
 // const prt = 6060
 
 
